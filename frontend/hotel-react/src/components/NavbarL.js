@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import fotoprofile from '../img/pp.JPG';
 
 const NavbarL = () => {
@@ -38,9 +38,9 @@ const NavbarL = () => {
         }}>
             <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
                 <img
-                    src="img/logo1.png" // Ganti dengan path yang sesuai untuk logo Anda
+                    src="img/logo1.png"
                     alt="Luxe Jogja"
-                    style={{ height: "40px", marginRight: '10px' }} // Menambahkan margin untuk jarak antara logo dan teks
+                    style={{ height: "40px", marginRight: '10px' }}
                 />
                 <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#FFA726' }}>
                     Luxe Jogja
