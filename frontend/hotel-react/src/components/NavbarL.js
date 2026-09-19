@@ -86,12 +86,27 @@ const NavbarL = () => {
             <div className="d-flex align-items-center">
                 <form className="w-100 me-3" role="search">
                     <div className="flex-shrink-0 dropdown">
-                        <button type="button" className="d-block link-body-emphasis text-decoration-none dropdown-toggle btn btn-link p-0 border-0 bg-transparent" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src={fotoprofile} alt="Profile" width="32" height="32" className="rounded-circle" />
-                        </button>
-                        <ul className="dropdown-menu text-small shadow">
-                            <li><a className="dropdown-item" href="/" onClick={handleSignOut}>Sign out</a></li>
-                        </ul>
+                    <button
+                        type="button"
+                        className="d-block link-body-emphasis text-decoration-none dropdown-toggle btn btn-link p-0 border-0 bg-transparent"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                    >
+                        <img
+                        src={fotoprofile}
+                        alt="Profile"
+                        width="32"
+                        height="32"
+                        className="rounded-circle"
+                        />
+                    </button>
+                    <ul className="dropdown-menu text-small shadow">
+                        <li>
+                        <a className="dropdown-item" href="/" onClick={handleSignOut}>
+                            Sign out
+                        </a>
+                        </li>
+                    </ul>
                     </div>
                 </form>
             </div>
