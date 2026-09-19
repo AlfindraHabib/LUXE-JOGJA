@@ -1,9 +1,9 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
-import fotoprofile from '../img/pp.JPG'; // Ganti dengan path yang sesuai untuk gambar profil Anda
+// import { Link, useNavigate } from "react-router-dom";
+import fotoprofile from '../img/pp.JPG';
 
 const NavbarL = () => {
-    const navigate = useNavigate(); // Hook untuk navigasi
+    const navigate = useNavigate(); 
 
     const handleNavigateToHome = () => {
         navigate("/beranda"); // Navigasi ke halaman Home
@@ -86,7 +86,7 @@ const NavbarL = () => {
             <div className="d-flex align-items-center">
                 <form className="w-100 me-3" role="search">
                     <div className="flex-shrink-0 dropdown">
-                        <a href="#" className="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button type="button" className="d-block link-body-emphasis text-decoration-none dropdown-toggle btn btn-link p-0 border-0 bg-transparent" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src={fotoprofile} alt="Profile" width="32" height="32" className="rounded-circle" />
                         </a>
                         <ul className="dropdown-menu text-small shadow">
