@@ -1,0 +1,43 @@
+/* Landing.css */
+
+.landing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+}
+
+.landing-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.landing-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.landing-description {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.landing-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.landing-image {
+    flex: 1;
+    text-align: right;
+}
+
+.landing-image img {
+    max-width: 100%;
+    height: auto;
+}

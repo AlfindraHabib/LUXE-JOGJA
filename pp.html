@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Hotel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .button {
+            display: block;
+            width: 150px;
+            margin: 0 auto 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .hotel-card {
+            display: flex;
+            gap: 20px;
+            background: #ffffff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .hotel-card img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .hotel-info {
+            flex: 1;
+        }
+
+        .hotel-info h2 {
+            font-size: 18px;
+            color: #333;
+            margin: 0 0 10px;
+        }
+
+        .hotel-info p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .hotel-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .hotel-actions button {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .hotel-actions .edit {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .hotel-actions .delete {
+            background-color: #DC3545;
+            color: white;
+        }
+
+        .hotel-actions .edit:hover {
+            background-color: #0056b3;
+        }
+
+        .hotel-actions .delete:hover {
+            background-color: #a71d2a;
+        }
+
+        .hotel-distance {
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Daftar Hotel di Area Wisata</h1>
+        </div>
+        <a href="#" class="button">Tambah Data</a>
+
+        <div class="hotel-card">
+            <img src="hotel1.jpg" alt="Malioboro Garden Hotel">
+            <div class="hotel-info">
+                <h2>Malioboro Garden Hotel</h2>
+                <p>⭐⭐</p>
+                <p>Pusat kota Yogyakarta, Yogyakarta</p>
+                <p class="hotel-distance">Jarak dari tempat anda: ± 1 km</p>
+                <div class="hotel-actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Hapus</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hotel-card">
+            <img src="hotel2.jpg" alt="Dosare Capsule Hotel Malioboro">
+            <div class="hotel-info">
+                <h2>Dosare Capsule Hotel Malioboro</h2>
+                <p>⭐⭐</p>
+                <p>Pusat kota Yogyakarta, Yogyakarta</p>
+                <p class="hotel-distance">Jarak dari tempat anda: ± 1 km</p>
+                <div class="hotel-actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Hapus</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hotel-card">
+            <img src="hotel3.jpg" alt="Aveta Hotel Malioboro">
+            <div class="hotel-info">
+                <h2>Aveta Hotel Malioboro</h2>
+                <p>⭐⭐</p>
+                <p>Pusat kota Yogyakarta, Yogyakarta</p>
+                <p class="hotel-distance">Jarak dari tempat anda: ± 1 km</p>
+                <div class="hotel-actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Hapus</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hotel-card">
+            <img src="hotel4.jpg" alt="Novotel Suites Yogyakarta Malioboro">
+            <div class="hotel-info">
+                <h2>Novotel Suites Yogyakarta Malioboro</h2>
+                <p>⭐⭐</p>
+                <p>Pusat kota Yogyakarta, Yogyakarta</p>
+                <p class="hotel-distance">Jarak dari tempat anda: ± 1 km</p>
+                <div class="hotel-actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Hapus</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

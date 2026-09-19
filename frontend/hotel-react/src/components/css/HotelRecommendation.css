@@ -1,0 +1,43 @@
+/* HotelRecommendation.css */
+
+.hotel-recommendation {
+    background-color: #f9f9f9;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-radius: 0.5rem;
+    /* Rounded corners for images */
+}
+
+.card-body {
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.text-end {
+    font-size: 1.2rem;
+}

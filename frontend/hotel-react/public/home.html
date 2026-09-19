@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE JOGJA</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="app.css"> -->
+</head>
+
+<body>
+    <!-- <div id="root"></div> -->
+    <script src="src/app.js"></script>
+    <header class="bg-light py-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo1.png" alt="Luxe Jogja" style="height: 40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav me-auto">
+                        <a class="nav-link active" aria-current="page" href="home.html">Beranda</a>
+                        <a class="nav-link" href="pages/hts.html">Hotel & Home</a>
+                    </div>
+
+                </div>
+                <div class="d-flex align-items-center">
+                    <form class="w-100 me-3" role="search">
+                        <div class="flex-shrink-0 dropdown">
+                            <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="img/pp.JPG" alt="User Avatar" width="32" height="32" class="rounded-circle" />
+                            </a>
+                            <ul class="dropdown-menu text-small shadow">
+                                <li><a class="dropdown-item" href="#hotel-recommendation">Rekomendasi Hotel</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="index.html">Keluar</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+            </div>
+        </nav>
+        </div>
+    </header>
+    <!-- Hero -->
+    <section class="hero text-white text-center py-5" style="
+    background: url('img/tugu.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 20px;
+    height: 85vh;
+    position: relative;
+    overflow: hidden;
+    ">
+        <div class="container d-flex flex-column justify-content-center align-items-start h-100 px-4">
+            <h1 class="display-4 fw-bold" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">LIVE YOUR ADVENTURE</h1>
+            <p class="lead" style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);">
+                Jelajahi Yogyakarta tanpa batas: rekomendasi hotel dan wisata terbaik untuk Anda
+            </p>
+        </div>
+    </section>
+    <!-- Rekomendasi Hotel -->
+    <section class="hotel-recommendation py-5">
+        <div class="container text-start">
+            <h2 class="mb-4 text-center">Cari hotel terdekat dengan destinasi wisata Anda</h2>
+            <p class="mb-4 text-center">Cek disini saja, rekomendasi hotel pilihan terbaik!</p>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="img/ambarrukmo hotel.jpg" class="card-img-top" alt="Royal Ambarrukmo">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Royal Ambarrukmo</h5>
+                            <p class="card-text">Ambarrukmo, Depok</p>
+                            <div class="mt-auto text-end">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="img/marriothotel.jpg" class="card-img-top" alt="Marriott Hote">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Marriott Hotel</h5>
+                            <p class="card-text">Condong Catur, Sleman</p>
+                            <div class="mt-auto text-end">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="img/expedia-hotels.jpg" class="card-img-top" alt="The Phoenix Hotel">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">The Phoenix Hotel</h5>
+                            <p class="card-text">Jetis, Yogyakarta</p>
+                            <div class="mt-auto text-end">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container mt-5 p-4" style="background-color: #e3f2fd; border-radius: 15px;">
+        <div class="row align-items-center">
+            <!-- Kiri -->
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <h2 class="fw-bold">Apa itu LUXE JOGJA?</h2>
+                <p class="text-muted">
+                    Menyediakan berbagai pilihan Hotel berkualitas di Yogyakarta dengan informasi yang lengkap dan
+                    akurat.
+                </p>
+            </div>
+            <!-- Kanan -->
+            <div class="col-12 col-md-6 text-center">
+                <img src="img/logo1.png" alt="Luxe Jogja" class="img-fluid"
+                    style="max-width: 150px; border-radius: 10px;">
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <!-- Gambar -->
+            <div class="col-12 col-md-4 text-center mb-3 mb-md-4">
+                <img src="img/malioboro.jpg" alt="Jalan Malioboro" class="img-fluid rounded">
+            </div>
+            <!-- Deskripsi -->
+            <div class="col-12 col-md-7 text-center text-md-start">
+                <h3 class="fw-bold">Wisata terdekat Anda?</h3>
+                <p class="text-muted">
+                    Kini, Anda tidak perlu khawatir akan jarak atau waktu tempuh karena semuanya dirancang untuk
+                    memberikan pengalaman menginap yang praktis dan memuaskan.
+                </p>
+                <button type="button" class="btn btn-outline-secondary">Telusuri</button>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Beranda</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Hotel & Home</a></li>
+                        <!-- <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">About</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5>Contact</h5>
+                    <p>
+                        Email: <a href="mailto:luxejogja@gmail.com"
+                            class="text-white text-decoration-none">luxejogja@gmail.com</a><br>
+                        Phone: <a href="tel:081223435674" class="text-white text-decoration-none">0812-2343-5674</a>
+                    </p>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p class="mb-0">&copy; 2024 Your Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Index.js"></script>
+</body>
+
+</html>

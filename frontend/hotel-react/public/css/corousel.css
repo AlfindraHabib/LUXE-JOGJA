@@ -1,0 +1,41 @@
+/* style.css */
+
+/* Hero Section */
+.hero {
+    background: url('img/tugu.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 20px;
+    height: 85vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Card Styles */
+.card {
+    height: 100%;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 5rem;
+    padding: 1rem;
+    background-color: #e3f2fd;
+    border-radius: 15px;
+}
+
+/* Text Shadow */
+.text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Button Styles */
+.btn-outline-secondary {
+    margin-top: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+}

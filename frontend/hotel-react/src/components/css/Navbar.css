@@ -1,0 +1,125 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Allow items to wrap on smaller screens */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links span {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links span:hover {
+    color: #FFA726;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.auth-buttons .btn-light {
+    background-color: #FFA726;
+    color: #fff;
+}
+
+.auth-buttons .btn-outline-light {
+    color: #FFA726;
+    border: 1px solid #FFA726;
+}
+
+/* Hamburger Menu Styles */
+.menu-icon {
+    display: none;
+    /* Hide by default */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        /* Hide links by default */
+        flex-direction: column;
+        /* Stack links vertically */
+        width: 100%;
+        /* Full width */
+        align-items: center;
+        /* Center align */
+        position: absolute;
+        /* Positioning for dropdown */
+        top: 60px;
+        /* Adjust based on navbar height */
+        left: 0;
+        background-color: #333;
+        /* Background color for dropdown */
+        z-index: 1;
+        /* Ensure it appears above other content */
+    }
+
+    .nav-links.active {
+        display: flex;
+        /* Show links when active */
+    }
+
+    .menu-icon {
+        display: flex;
+        /* Show hamburger icon on smaller screens */
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        /* Adjust margin for vertical spacing */
+    }
+
+    .nav-links .btn {
+        width: 80%;
+        /* Make buttons full width in dropdown */
+        text-align: center;
+        /* Center text in buttons */
+    }
+}
